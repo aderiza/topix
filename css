@@ -1,0 +1,557 @@
+body{
+  /* font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif; */
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  margin: 0;
+  z-index: 20;
+}
+
+.header_logo{
+  height: 48px;
+  width: 100%;
+  background-color: #1D1D1F;
+}
+
+.header_logo li{
+  float: right;
+  margin: 0 60px;
+  display: inline;
+}
+
+.header_logo ul{
+    list-style:  none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+.header_logo a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.header_logo a:hover{
+  color: #2997FF;
+}
+
+#emblem{
+  height: 48px;
+  width: 48px;
+}
+
+header p{
+  color: black;
+  background-color: #FAFAFA;
+  font-size: 15px;
+  text-align: center;
+  margin-top :-3px;
+  margin-bottom: 0;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.collect{
+  text-align: center;
+  margin-top: 150px;
+  /* padding:30px; */
+  font-weight: 200;
+}
+
+span{
+  font-size:30px;
+  font-weight: 500;
+}
+
+.form_btn{
+  width: 200px;
+  height: 50px;
+  background-color: #fff;
+  color: #1D1D1F;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 3px;
+  transition: 0.2s all ease 0s;
+}
+
+.form_btn:hover{
+box-shadow: none;
+transform: translate3d(0, 3px, 0);
+}
+
+.form_btn a{
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+.top_picture{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: -70px;
+}
+
+#top{
+  background-size: cover;
+  width: 70%;
+  height: 100%;
+  /* display: none; */
+}
+
+.topix{
+  text-align: center;
+  position: relative;
+  margin-top: 5px;
+
+}
+
+.topix h1{
+  position: absolute;
+  color: black;
+  font-weight: bold;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  font-size: 50px;
+  top: 30%;
+  left: 50%;
+}
+
+.topix a{
+  position: absolute;
+  color: #2997FF;
+  background-color: black;
+  font-size: 20px;
+  padding: 18px 10px 0 10px;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 50px;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.topix a:hover{
+  opacity: 1.0;
+}
+
+.topix img{
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  opacity: 0.7;
+}
+/* _________________________________________ */
+.game{
+  text-align: center;
+  position: relative;
+  margin-top: 5px;
+}
+
+.game h1{
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  font-size: 50px;
+  top: 30%;
+  left: 50%;
+}
+
+.game p{
+  position: absolute;
+  color: #fff;
+  font-weight: normal;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  font-size: 20px;
+  top: 37%;
+  left: 50%;
+}
+
+.game a{
+  position: absolute;
+  color: #2997FF;
+  background-color: #1D1D1F;
+  font-size: 20px;
+  padding: 18px 10px 0 10px;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 50px;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.game a:hover{
+  opacity: 1.0;
+}
+
+.game img{
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  opacity: 0.7;
+}
+
+/* _________________________________________ */
+.schedule{
+  text-align: center;
+  position: relative;
+  margin-top: 5px;
+
+}
+
+.schedule h1{
+  position: absolute;
+  color: black;
+  font-weight: bold;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  font-size: 50px;
+  top: 30%;
+  left: 50%;
+}
+
+.schedule a{
+  position: absolute;
+  color: #2997FF;
+  background-color: white;
+  font-size: 20px;
+  padding: 18px 10px 0 10px;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 50px;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.schedule a:hover{
+  opacity: 1.0;
+}
+
+.schedule img{
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  opacity: 0.7;
+}
+
+.team{
+ text-align: center;
+ position: relative;
+ margin-top: 5px;
+
+}
+
+.team h1{
+ position: absolute;
+ color: black;
+ font-weight: bold;
+ -ms-transform: translate(-50%,-50%);
+ -webkit-transform: translate(-50%,-50%);
+ transform: translate(-50%,-50%);
+ font-size: 50px;
+ top: 30%;
+ left: 50%;
+}
+
+.team a{
+ position: absolute;
+ color: #2997FF;
+ background-color: white;
+ font-size: 20px;
+ padding: 18px 10px 0 10px;
+ -ms-transform: translate(-50%,-50%);
+ -webkit-transform: translate(-50%,-50%);
+ transform: translate(-50%,-50%);
+ top: 50%;
+ left: 50%;
+ width: 100%;
+ height: 50px;
+ text-decoration: none;
+ opacity: 0.8;
+}
+
+.team a:hover{
+  opacity: 1.0;
+}
+
+.team img{
+ background-size: cover;
+ width: 100%;
+ height: 700px;
+ opacity: 0.7;
+}
+
+.menber_title h1{
+margin: 0;
+}
+
+.all_menber{
+  margin-top:10px;
+  /* padding-top: 30px; */
+  text-align: center;
+  border-bottom: 1px solid rgb(214,214,214);
+  padding-bottom: 100px
+}
+
+.collect_down{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding:10px;
+  font-weight: 200;
+}
+
+/* Topixページ */
+.topix{
+  margin-top: 80px;
+}
+
+#topix_image{
+  width: 100%;
+  height: 100%;
+  margin-bottom: -3px;
+}
+
+.topix_title{
+  color: #2997FF;
+  background: rgba(29,29,31,0.9);
+  text-align: center;
+}
+
+.topix_title h1{
+  margin: 0;
+  height: 48px;
+}
+
+.topix_contets{
+  position: relative;
+  width: 100%;
+  height: 120px;
+  display: block;
+  margin-top: 30px;
+  border-bottom: 1px solid rgb(214,214,214);
+}
+
+.topix_contets img{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 20%;
+}
+
+.topix_contets p{
+  float: right;
+  margin: 0 auto;
+  position: absolute;
+  top :0;
+  left: 40%;
+}
+
+footer{
+  width: 100%;
+  height: 300px;
+  color: #1D1D1F;
+  background-color: rgb(242,242,242);
+}
+
+.result_title img{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.result_title{
+  color: #2997FF;
+  background: rgba(29,29,31,0.9);
+  margin-top: 80px;;
+  text-align: center;
+  /* opacity: 0.8; */
+}
+
+.result_title h1{
+  color: #2997FF;
+  background: rgba(29,29,31,0.9);
+  text-align: center;
+  margin: 0;
+}
+
+.alert-secondary{
+  font-size: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+#btn_color{
+  color: black;
+}
+
+/* .container{
+  margin-top: 100px;
+} */
+
+/* .jumbotron{
+  margin: 0 auto;
+  width:680px;
+}
+ */
+#topix{
+  background-image: url(/Users/yukitakepc/Desktop/aderiza_web_site/img/jungwoo-hong-cYUMaCqMYvI-unsplash.jpg);
+  background-size: cover;
+}
+
+#team{
+  background-image: url(/Users/yukitakepc/Desktop/aderiza_web_site/img/unity-1917780_1280.jpg);
+  background-size: cover;
+}
+
+#result{
+  background-image: url(img/izuddin-helmi-adnan-siurZcdJGEw-unsplash.png);
+  background-size: cover;
+}
+
+#schedule{
+  background-image: url(/Users/yukitakepc/Desktop/aderiza_web_site/img/calendar-200928_1280.jpg);
+  background-size: cover;
+}
+
+#media{
+  background-image: url(/Users/yukitakepc/Desktop/aderiza_web_site/img/camera-2590890_1280.jpg);
+  background-size: cover;
+}
+
+/* @media(max-width:670px){
+  #test{
+    width: 100%;
+  } */
+
+#position{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+#player{
+  background-image: url(/Users/yukitakepc/Desktop/aderiza_web_site/img/we_like.png);
+  background-size: cover;
+  max-width: 100%;
+}
+
+.flag{
+background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+#facebook{
+  text-align: center;
+}
+
+@media(max-width:375px){
+#minami{
+  font-size: 10px;
+}
+#minami_a{
+  font-size: 10px;
+}
+#yukari{
+  font-size: 10px;
+}
+#yukari_a{
+  font-size: 10px;
+}
+h2{
+  text-align: center;
+}
+}
+
+@media(max-width:768px){
+  h2{
+    text-align: center;
+  }
+}
+@media(max-width:1438px){
+  h2{
+    text-align: center;
+  }
+}
+
+@media(min-width:1439px){
+#minami_p{
+  position:relative;
+  top: 10%;
+  left: 30%;
+}
+#yukari_p{
+  position:relative;
+  top: 10%;
+  left: 30%;
+}
+h2{
+  text-align: center;
+}
+}
+
+h2{
+  border-bottom: 1px solid gray;
+}
+
+.ather{
+  background-color: #f7f7f7;
+  font-size: 25px;
+  padding: 10px
+}
+
+#note{
+  position: relative;
+  top: -13px;
+  left: 0px;
+}
+
+#tw{
+  position: relative;
+  left: 20px;
+}
+
+#in{
+  position: relative;
+  left: 40px;
+}
+
+@media screen and (min-width:992px){
+  #ade_face{
+    padding-left: 85px;
+  }
+}
+
+@media screen and (min-width:0px){
+  #ade_face{
+    margin: 0 auto;
+  }
+}
